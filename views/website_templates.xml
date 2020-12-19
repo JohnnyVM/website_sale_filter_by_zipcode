@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="option_header_zip_location" inherit_id="website.template_header_default" name="ZIP Location Header">
+		<xpath expr="//*[hasclass('oe_structure')][@id='oe_structure_header_default_1']" position="after">
+			<h3>test app</h3>
+	    </xpath>
+	</template>
+
+</odoo>
